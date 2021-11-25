@@ -7,7 +7,16 @@ class RepliesController < ApplicationController
   def all
     @heading = @title = "All Your Replies"
     @cur_url = "/replies"
+    
+    
+    
+    puts 'uhul'
+    puts "1" 
+    puts '2'
+    puts '3'
+    puts '4'
 
+    
     @replies = ReplyingComment
                  .for_user(@user.id)
                  .offset((@page - 1) * REPLIES_PER_PAGE)
