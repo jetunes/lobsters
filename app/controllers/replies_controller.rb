@@ -15,6 +15,7 @@ class RepliesController < ApplicationController
     puts '2'
     puts '3'
     puts '4'
+    puts '5'
 
     
     @replies = ReplyingComment
