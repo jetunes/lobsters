@@ -26,6 +26,7 @@ class RepliesController < ApplicationController
     apply_current_vote
     render :show
   end
+  puts '7'
 
   def comments
     @heading = @title = "Your Comment Replies"
